@@ -9,7 +9,7 @@ class User:
     """
     класс пользователя, атрибуты: логин, пароль
     """
-    def __int__(self, username, password, password_confirm):
+    def __init__(self, username, password, password_confirm):
         self.username = username
         if password == password_confirm:
             self.password = password
